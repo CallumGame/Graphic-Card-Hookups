@@ -19,6 +19,13 @@ background: #1f2937;
 color: white;
 }
 
+.products{
+display: flex;
+justify-content: center;
+align-self: center;
+
+}
+
 
 .footer {
 display: flex;
