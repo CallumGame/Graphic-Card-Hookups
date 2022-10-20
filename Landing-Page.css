@@ -8,5 +8,22 @@ height: 100px;
 width: 100px;
 
 }
+h1{ 
+    font-size: 48px;
+
+}
+
+.header{
+display: flex;
+background: #1f2937;
+color: white;
+}
 
 
+.footer {
+display: flex;
+background: #1f2937;
+color: white;
+justify-content: center;
+align-items: center;
+}
