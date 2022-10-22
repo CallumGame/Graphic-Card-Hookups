@@ -1,6 +1,5 @@
 body{
-    display:flex;
-    flex-direction: column;
+    margin: 0;
 }
 
 img {
@@ -8,8 +7,22 @@ height: 100px;
 width: 100px;
 
 }
+
+.item img{
+border: solid #2882f6;
+
+}
+
+
+
 h1{ 
     font-size: 48px;
+}
+
+h2 {
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -17,15 +30,64 @@ h1{
 display: flex;
 background: #1f2937;
 color: white;
+flex-wrap: wrap;
+align-items: center;
+gap: 16px;
+padding: 8px;
+
 }
+
 
 .products{
-display: flex;
-justify-content: center;
-align-self: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+height: 140px;
+  padding: 16px;
+gap: 52px;
+}
+
+.item {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: column ;
 
 }
 
+.Sign-up{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+    background: #2882f6;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 15px;
+  gap: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .right { 
+  
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+  gap: 16px;
+  }
 
 .footer {
 display: flex;
