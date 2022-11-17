@@ -40,12 +40,6 @@ a {
     gap: 16px;
   }
 
-.title {
-font-size: 48px;
-font-weight: extra-bold;
-color: #f9faf8;
-}
-
 .right { 
   
     display: flex;
@@ -54,21 +48,35 @@ color: #f9faf8;
 }
 
 .description {
-    display: flex;
-    background: #1f2937;
-padding: 50px 200px;
+  display: flex;
+  background: #1f2937;
+  padding: 80px 200px;
+  height: 300px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.sign-up-1 {
-  width:130px;
+.title {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  }
+
+.context{
+  width: 500px;
+  padding: 5px;
+}
+
+.Sign-up-1 {
+  width:100px;
   height: 25px;
   background-color: #3B81F6;
   border-radius: 5px;
-
+border: solid transparent;
 }
 
 .image {
-  height: 200px;
+  height: 250px;
   width:400px;
 }
 
@@ -109,21 +117,44 @@ margin: 40px;
 
 }
 
+.quote-block{
+  display: flex;
+  justify-content: center;
+  background-color:#e5e7eb ;
+  padding: 80px;
+    }
+  
+    .quote{
+      display: flex;
+  color: #1f2937;
+  width: 550px;
+  font-size: 36px ;
+  
+    }
+  
+    .quoter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+    }
+
 .block{
     display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 80px;
+ justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
     background: #2882f6;
-    width: 480px;
-    height: 50px;
+    width: 600px;
     border-radius: 5px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     padding: 30px 60px;
   gap: 16px;
-  margin: 60px 70px ;
+  margin: 80px 0px ;
   }
 
-.heading, .sign-up-text, .Sign-up, .context{
+.heading, .sign-up-text, .Sign-up, .context, .Sign-up-1{
   color: white;
 }
 
@@ -133,29 +164,6 @@ height: 25px;
 background-color: transparent;
 border: solid white;
 border-radius: 5px;
-  }
-
-
-  .quote-block{
-display: flex;
-justify-content: center;
-background-color:#e5e7eb ;
-padding: 80px;
-  }
-
-  .quote{
-    display: flex;
-color: #1f2937;
-width: 550px;
-font-size: 36px ;
-
-  }
-
-  .quoter {
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-
   }
   
 .footer {
