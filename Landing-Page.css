@@ -54,6 +54,7 @@ a {
   height: 300px;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 5px;
 }
 
 .title {
@@ -122,9 +123,13 @@ margin: 40px;
 
 .quote-block{
   display: flex;
-  justify-content: center;
   background-color:#e5e7eb ;
-  padding: 80px;
+  justify-content: center;
+  padding: 80px 450px ;
+  align-items: center;
+  flex-direction: column;
+flex-wrap: wrap;
+
     }
   
     .quote{
@@ -137,22 +142,21 @@ margin: 40px;
   
     .quoter {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+margin-left: auto;
   
     }
 
 .block{
     display: flex;
-    width: 600px;
+    width: 700px;
   height: 60px;
-  padding: 30px 60px;
-  margin: 80px 0px ;
+  padding: 30px 80px;
   border-radius: 5px;
  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
     background: #2882f6;
+    margin: 80px auto;
   }
 
 
