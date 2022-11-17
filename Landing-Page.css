@@ -1,7 +1,6 @@
 body{
     margin: 0;
     min-height: 100vh;
-
 }
 
 .container{
@@ -32,7 +31,7 @@ a {
     gap: 8px;
   }
   
-  li {
+li {
     list-style-type: none;
     display: flex;
   margin: 0px;
@@ -89,12 +88,12 @@ img {
     width: 100px;
     }
     
-    .item img{
+.item img{
     border: solid #2882f6;
     border-radius: 10px;
     }
 
-    .product-title{
+.product-title{
         display: flex;
         justify-content: center;
 margin-top: 30px;
@@ -132,17 +131,17 @@ flex-wrap: wrap;
 
     }
   
-    .quote{
+.quote{
       display: flex;
   color: #1f2937;
   width: 550px;
   font-size: 36px ;
-  
+
     }
   
-    .quoter {
+.quoter {
   display: flex;
-margin-left: auto;
+  margin-left: auto;
   
     }
 
@@ -160,21 +159,21 @@ margin-left: auto;
   }
 
 
-  .Sign-up{
-width:130px;
-height: 25px;
-background-color: transparent;
-border: solid white;
-border-radius: 5px;
+.Sign-up{
+  width:130px;
+  height: 25px;
+  background-color: transparent;
+  border: solid white;
+  border-radius: 5px;
   }
   
 .footer {
-display: flex;
-height: 80px;
-background: #1f2937;
-color: white;
-justify-content: center;
-align-items: center;
+  display: flex;
+  height: 80px;
+  background: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading, .sign-up-text, .Sign-up, .context, .Sign-up-1{
